@@ -5,9 +5,9 @@ import PageWrapper from './PageWrapper';
 const Etc = () => (
   <PageWrapper forceReadableWidth>
     <Helmet>
-      <title>/etc</title>
+      <title>Contact</title>
     </Helmet>
-    <h1>/etc</h1>
+    <h1>Contact</h1>
     <h2>Thanks</h2>
     <p>
       Thanks for visiting and thanks for phineas for making this website, dont sue me. I hope you enjoyed your stay. The source code for this website is
