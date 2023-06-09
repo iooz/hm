@@ -17,7 +17,7 @@ const Home = () => {
           {age}
         </Tooltip>{' '}
         y/o high school student trying to learn programming by using templates. Thanks Phineas.
-        gonna a bunch of anime pics here for sure.
+        Gonna insert a bunch of anime pics here for sure.
       </p>
     </PageWrapper>
   );
