@@ -6,8 +6,6 @@ import { Helmet } from 'react-helmet';
 import SuccessiveType from './components/SuccessiveType';
 import Nav from './components/Nav';
 import Home from './pages/Home';
-import Where from './pages/Where';
-import How from './pages/How';
 import Etc from './pages/Etc';
 import Presence from './pages/Presence';
 import Sakurajima from './pages/Sakurajima';
