@@ -7,7 +7,6 @@ import { GitHubLogo, KeyIcon, MenuIcon, NavigationIcon, InstagramLogo, XIcon } f
 import Doing from './Doing';
 import useSound from 'use-sound';
 import { useAtom } from 'jotai';
-import { doingAtom } from '../state/lanyard';
 import ContentLoader from 'react-content-loader';
 
 const pathnameOffsets: { [key: string]: number } = {
