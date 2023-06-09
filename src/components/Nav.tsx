@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { GitHubLogo, KeyIcon, MenuIcon, NavigationIcon, TwitterLogo, XIcon } from './Icons';
+import { GitHubLogo, KeyIcon, MenuIcon, NavigationIcon, InstagramLogo, XIcon } from './Icons';
 import Doing from './Doing';
 import useSound from 'use-sound';
 import { useAtom } from 'jotai';
@@ -138,8 +138,8 @@ const Nav = () => {
           </div>
 
           <Icons>
-            <a href="https://twitter.com/kaxxaxin">
-              <TwitterLogo />
+            <a href="https://www.instagram.com/powerlessss_/">
+              <InstagramLogo />
             </a>
             <a href="https://github.com/iooz">
               <GitHubLogo />
