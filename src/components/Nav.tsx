@@ -71,7 +71,7 @@ const Nav = () => {
   return (
     <>
       <MobileHeader>
-        <Title>Phineas Walton</Title>
+        <Title>Iooz</Title>
         {openOnMobile ? (
           <XIcon onClick={toggleMobileMenu} />
         ) : (
@@ -91,7 +91,7 @@ const Nav = () => {
         <Items>
           {!openOnMobile ? (
             <Row>
-              <Title>Phineas Walton</Title>
+              <Title>Iooz</Title>
               {/* <IconButton>
               <ChevronDown />
             </IconButton> */}
@@ -127,13 +127,10 @@ const Nav = () => {
 
           <div ref={dragConstraintsRef}>
             <Page active={pathname === '/' ? 1 : 0} to="/">
-              what I do
+              about me 
             </Page>
             <Page active={pathname === '/where' ? 1 : 0} to="/where">
-              where I've done it
-            </Page>
-            <Page active={pathname === '/how' ? 1 : 0} to="/how">
-              how I do it
+              things i made (soon)
             </Page>
             <Page active={pathname === '/etc' ? 1 : 0} to="/etc">
               more + contact
@@ -141,14 +138,11 @@ const Nav = () => {
           </div>
 
           <Icons>
-            <a href="https://twitter.com/phineyes">
+            <a href="https://twitter.com/kaxxaxin">
               <TwitterLogo />
             </a>
-            <a href="https://github.com/phineas">
+            <a href="https://github.com/iooz">
               <GitHubLogo />
-            </a>
-            <a href="https://keybase.io/phineas">
-              <KeyIcon />
             </a>
           </Icons>
           <Doing
