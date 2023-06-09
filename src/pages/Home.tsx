@@ -12,7 +12,7 @@ const Home = () => {
     <PageWrapper forceReadableWidth>
       <h1>What I Do</h1>
       <p>
-        Phin. {/* @ts-ignore */}
+        Iooz. {/* @ts-ignore */}
         <Tooltip arrow title={'20th December 2006'}>
           {age}
         </Tooltip>{' '}
