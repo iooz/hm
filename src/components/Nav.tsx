@@ -104,10 +104,7 @@ const Nav = () => {
               }
               rel="noreferrer"
             >
-              <NavigationIcon />
-              {doing?.kv.location ? (
-                doing.kv.location
-              ) : (
+            : (
                 <ContentLoader
                   speed={2}
                   // width={"auto"}
