@@ -144,10 +144,6 @@ const Nav = () => {
               <GitHubLogo />
             </a>
           </Icons>
-          <Doing
-            style={{ display: presenceActive ? 'block' : 'none' }}
-            setActive={setPresenceActive}
-          />
         </Items>
       </Container>
     </>
