@@ -4,7 +4,6 @@ import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { GitHubLogo, KeyIcon, MenuIcon, NavigationIcon, InstagramLogo, XIcon } from './Icons';
-import Doing from './Doing';
 import useSound from 'use-sound';
 import { useAtom } from 'jotai';
 import ContentLoader from 'react-content-loader';
@@ -26,7 +25,6 @@ const Nav = () => {
   const [openOnMobile, setOpenOnMobile] = useState(false);
   const [presenceActive, setPresenceActive] = useState(false);
 
-  const [doing] = useAtom(doingAtom);
 
   const dragConstraintsRef = useRef(null);
 
