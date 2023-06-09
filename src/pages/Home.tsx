@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { Tooltip } from 'react-tippy';
 import PageWrapper from './PageWrapper';
 
-const BIRTH = new Date('2001-12-28T10:15:00Z');
+const BIRTH = new Date('2006-12-20T10:15:00Z');
 const YEAR_MILLIS = 31556952000;
 
 const Home = () => {
