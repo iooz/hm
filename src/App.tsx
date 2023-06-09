@@ -50,13 +50,13 @@ function App() {
         >
           <ProgressContainer onClick={onIntroEnd}>
             <h4>
-              Skip intro <ChevronsRight />
+              Skip <ChevronsRight />
             </h4>
           </ProgressContainer>
           <SuccessiveType
             onEnd={onIntroEnd}
             words={
-              "Software was meant to be light and feel effortless to use. As we're all developing new products so rapidly, bloat in our code is catching up with us. I design simple but effective, highly-scalable and realtime products for the future."
+              "Bang Ayok Main Free Fire Bang, Apasih Dek."
             }
             speed={1}
             userSkipped={introEnded}
