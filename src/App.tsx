@@ -56,7 +56,7 @@ function App() {
           <SuccessiveType
             onEnd={onIntroEnd}
             words={
-              "Bang Ayok Main Free Fire Bang, Apasih Dek."
+              "Hello There"
             }
             speed={1}
             userSkipped={introEnded}
